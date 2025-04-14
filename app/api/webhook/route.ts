@@ -31,6 +31,14 @@ export async function POST(req: Request) {
   const payload = await req.json()
   const body = JSON.stringify(payload);
  
+
+  console.log("Webhook Headers:", {
+    "svix-id": svix_id,
+    "svix-timestamp": svix_timestamp,
+    "svix-signature": svix_signature,
+  });
+  console.log("Webhook Payload:", payload);
+  
   // Create a new SVIX instance with your secret.
   const wh = new Webhook(WEBHOOK_SECRET);
  
