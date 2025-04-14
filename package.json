@@ -34,7 +34,7 @@
     "eslint-plugin-tailwindcss": "^3.13.0",
     "html-react-parser": "^4.2.2",
     "lucide-react": "^0.284.0",
-    "mongodb": "^6.1.0",
+    "mongodb": "^6.15.0",
     "mongoose": "^7.5.4",
     "next": "13.5.4",
     "postcss": "8.4.31",
