@@ -12,7 +12,7 @@ export default authMiddleware({
   ],
   ignoredRoutes: [
     '/app/api/webhook',
-        '/api/webhook', '/api/chatgpt'
+        '/api/webhook', '/api/chatgpt', '/api/groq'
   ]
 });
  
